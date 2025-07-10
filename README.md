@@ -114,15 +114,15 @@ make all
 # 64-bit version
 x86_64-w64-mingw32-gcc -Os -s -static -DWIN32_LEAN_AND_MEAN \
     -ffunction-sections -fdata-sections -fno-ident -fomit-frame-pointer \
-    -o pseudovirus.exe main.c \
+    -o bl00dym3ry.exe main.c \
     -Wl,--gc-sections -Wl,--strip-all -Wl,--build-id=none \
     -static-libgcc -static-libstdc++ \
     -lwininet -lws2_32 -liphlpapi -luser32 -lkernel32 -lgdi32 \
     -lshell32 -ladvapi32 -lole32 -loleaut32 -luuid -lmsimg32
 
 # Size optimization
-x86_64-w64-mingw32-strip --strip-all pseudovirus.exe
-upx --best --lzma pseudovirus.exe
+x86_64-w64-mingw32-strip --strip-all bl00dym3ry.exe
+upx --best --lzma bl00dym3ry.exe
 ```
 
 ---
