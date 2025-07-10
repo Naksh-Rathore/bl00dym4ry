@@ -5,11 +5,11 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Educational](https://img.shields.io/badge/Purpose-Educational-orange)
 
-# 🎭 BloodMary Phishing Simulator
+# 🎭 BloodyMary Trojan Phishing Simulator
 
 ## 📋 Description
 
-**BloodMary** is an educational tool (trojan-virus) for training cybersecurity specialists, simulating realistic phishing attacks with social engineering elements. This project was created to raise awareness about cyber threats and demonstrate the consequences of running suspicious files.
+**BloodyMary** is an educational tool (trojan-virus or Ransomware) for training cybersecurity specialists, simulating realistic phishing attacks with social engineering elements. This project was created to raise awareness about cyber threats and demonstrate the consequences of running suspicious files.
 
 > ⚠️ **WARNING**: This tool is intended EXCLUSIVELY for educational purposes and authorized testing in controlled environments.
 
@@ -362,6 +362,7 @@ Using this tool to attack systems without explicit permission from their owners 
 ## 🏆 Acknowledgments
 
 Thanks to all project contributors and the cybersecurity community for their contribution to creating a safer digital world!
+Especially for the idea of blood on the screen from the early 00s, when we discussed visual effects for viruses with virusmaker with nick "DES/29A" on the IRC channel.
 
 ```
    ██████╗ ██╗      ██████╗  ██████╗ ██████╗ ███╗   ███╗ █████╗ ██████╗ ██╗   ██╗
@@ -371,7 +372,7 @@ Thanks to all project contributors and the cybersecurity community for their con
    ██████╔╝███████╗╚██████╔╝╚██████╔╝██████╔╝██║ ╚═╝ ██║██║  ██║██║  ██║   ██║   
    ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
                                                                                     
-                        🎭 Phishing Simulator for Cybersecurity Training 🎭
+                        🎭 Trojan Phishing Simulator for Cybersecurity Training 🎭
 ```
 
 ---
