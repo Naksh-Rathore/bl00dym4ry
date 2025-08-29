@@ -120,11 +120,11 @@ void GetNetworkInfo(char* buffer, size_t bufferSize) {
     DWORD dwBufLen = sizeof(IP_ADAPTER_INFO);
     char temp[1024] = {0};
     
-    pAdapterInfo = (IP_ADAPTER_INFO*)malloc(dwBufLen);
+    pAdapterInfo = malloc(dwBufLen);
     
     if (GetAdaptersInfo(pAdapterInfo, &dwBufLen) == ERROR_BUFFER_OVERFLOW) {
         free(pAdapterInfo);
-        pAdapterInfo = (IP_ADAPTER_INFO*)malloc(dwBufLen);
+        pAdapterInfo = malloc(dwBufLen);
     }
     
     if (GetAdaptersInfo(pAdapterInfo, &dwBufLen) == NO_ERROR) {
